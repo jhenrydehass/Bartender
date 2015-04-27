@@ -1,0 +1,104 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/default_padding"
+            android:gravity="top"
+            android:columnCount="3"
+            android:rowCount="4">
+
+    <TextView
+        android:text="@string/add_name"
+        android:layout_gravity="right|center_vertical"
+        android:layout_column="0"
+        android:layout_row="0"/>
+
+    <EditText
+        android:layout_gravity="fill_horizontal"
+        android:id="@+id/add_name"
+        android:hint="@string/add_name_hint"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:nextFocusDown="@+id/add_description"
+        android:inputType="text"
+        android:singleLine="true"
+        android:imeOptions="actionNext"/>
+
+    <TextView
+        android:text="@string/add_description"
+        android:layout_column="0"
+        android:layout_gravity="right|center_vertical"
+        android:layout_row="1"/>
+
+    <EditText
+        android:layout_gravity="fill_horizontal"
+        android:lines="5"
+        android:id="@+id/add_description"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:hint="@string/add_description_hint"
+        android:inputType="textMultiLine"/>
+
+
+    <TextView
+        android:text="@string/add_rating"
+        android:layout_gravity="right|center_vertical"
+        android:layout_column="0"
+        android:layout_row="2"/>
+
+
+    <RatingBar
+        android:id="@+id/add_rating"
+        android:numStars="5"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:nextFocusUp="@+id/add_description"
+        />
+
+    <Space
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="3"
+        android:layout_gravity="fill"
+        />
+
+    <LinearLayout
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_rowSpan="4"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        style="?android:attr/buttonBarStyle">
+
+        <TextView
+            android:text="@string/add_picture"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:drawableLeft="@drawable/ic_camera"
+            android:onClick="takePicture"
+            android:text="@string/add_take_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            />
+
+        <Button
+            android:drawableLeft="@drawable/ic_picture"
+            android:onClick="selectPicture"
+            android:text="@string/add_select_picture"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            />
+
+        <ImageView
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:id="@+id/add_picture_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+
+
+</GridLayout>

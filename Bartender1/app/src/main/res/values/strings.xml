@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BarTender</string>
+
+    <!-- Login -->
+    <string name="login_activity_title">Connexion</string>
+    <string name="login_btn">Se connecter</string>
+    <string name="login_password_hint">Mot de passe</string>
+    <string name="login_username">Nom d\'utilisateur</string>
+    <string name="login_wrong_password_msg">Le mot de passe saisi est incorrect</string>
+    <string name="login_register_btn">S\'enregistrer</string>
+
+    <!--Register-->
+    <string name="register_activity_title">Création d\'un profil</string>
+    <string name="register_btn">Créer</string>
+    <string name="register_username">Nom d\'utilisateur</string>
+    <string name="register_password">Mot de passe</string>
+    <string name="register_wrong_password">Le mot de passe n\est pas correctement confirmé</string>
+    <string name="register_wrong_username">Ce nom d\'utilisateur est déjà utilisé</string>
+    <string name="register_done">Profil créé</string>
+    <string name="register_typep">Votre status</string>
+    <string name="register_password_bis">Confirmez votre mot de passe</string>
+
+    <!-- Menu principal (main) -->
+    <string name="main_activity_title">Menu principal</string>
+    <string name="main_show_btn">Carte</string>
+    <string name="main_search_btn">Rechercher</string>
+    <string name="main_logout_btn">Se déconnecter</string>
+    <string name="main_add_btn">Playlist</string>
+    <string name="main_welcome">Bienvenue </string>
+    <string name="main_back_button_disable">Pour retournez en arrière, déconnectez-vous.</string>
+    <!--Menu Waiter-->
+    <string name="waiter_activity_title">Menu principal</string>
+    <string name="waiter_order_btn">Prendre une commande</string>
+    <string name="waiter_addition_btn">Addition</string>
+    <string name="waiter_table">n\° table</string>
+    <string name="waiter_inventory">Inventaire</string>
+
+    <!-- Affichage (show) -->
+    <string name="show_list_activity_title">Liste des morceaux de musique</string>
+    <string name="show_list_no_result">Aucun résultat ne correspond à votre recherche</string>
+    <string name="show_list_error_no_item">Aucun élément dans votre collection. Commencez par en ajouter.</string>
+    <string name="show_list_name_title">Nom de l\'élément de collection</string>
+    <string name="show_list_rating_title">Note</string>
+    <!-- Recherche (search) -->
+    <string name="search_activity_title">Rechercher</string>
+    <string name="search_hint">Taper pour rechercher un élément dans votre collection</string>
+
+    <!-- Ajout (add) -->
+    <string name="add_activity_title">Lecteur de Musique</string>
+    <string name="add_menu_action_quit">Annuler</string>
+    <string name="add_menu_action_save">Enregistrer</string>
+    <string name="add_name_hint">Nom de l\'élément de collection</string>
+    <string name="add_description_hint">Description de l\'élément de collection</string>
+    <string name="add_error_name_required">Erreur, le nom de l\'élément est requis.</string>
+    <string name="add_success_msg">L\'élément de collection a correctement été ajouté</string>
+    <string name="add_error_on_create">Oups, une erreur est survenue lors de l\'ajout de l\'élément à votre collection. Ré-essayez.</string>
+    <string name="add_rating">Note :</string>
+    <string name="add_take_picture">Prendre une photo</string>
+    <string name="add_select_picture">Parcourir la galerie</string>
+    <string name="add_picture">Image : </string>
+    <string name="add_name">Nom :</string>
+    <string name="add_description">Description : </string>
+
+    <!-- Détails (details) -->
+    <string name="show_details_activity_title">Détails du morceau</string>
+    <string name="show_details_name_title">Nom de l\'élément :</string>
+    <string name="show_details_description_title">Description :</string>
+    <string name="show_details_picture_title">Image :</string>
+    <string name="show_details_rating_title">Note : </string>
+    <string name="show_details_rating_change_error">Désolé, la nouvelle note n\'a pas pu être enregistrée.</string>
+    <string name="show_details_title_title">Titre :</string>
+    <string name="show_details_filename_title">Nom du fichier :</string>
+    <string name="show_artist_title">Artiste :</string>
+
+</resources>
