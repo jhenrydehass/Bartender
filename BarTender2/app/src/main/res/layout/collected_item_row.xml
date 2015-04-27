@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="@dimen/default_padding"
+              android:weightSum="100">
+
+    <TextView
+        android:id="@+id/show_row_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="70"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="30"
+        >
+
+        <RatingBar
+            android:id="@+id/show_row_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:isIndicator="true"
+            android:numStars="5"/>
+    </FrameLayout>
+
+</LinearLayout>
